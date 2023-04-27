@@ -117,15 +117,3 @@ print(mRNA_library_codon_optimized_len_sorted)
 print(mRNA_library_codon_optimized_gc_sorted)
 
 
-"""for i,k in dict_2.items():
-    if k.startswith("ATG"):
-        print(i,"have start codon",k)
-    else:
-        print(i,"doesn't have the start codon",k)
-
-print("\n")
-for i,k in dict_2.items():
-    if k.endswith("TGA") or k.endswith("TAA") or k.endswith("TAG"):
-        print(i,"have stop codon",k[::-1])
-    else:
-        print(i,"doesn't have the stop codon",k[::-1])"""
